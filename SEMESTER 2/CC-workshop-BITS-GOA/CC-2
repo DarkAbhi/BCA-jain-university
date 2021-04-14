@@ -1,0 +1,16 @@
+Step 1: Go to the azure portal and search the DNS option in networking part.
+Step 2: Create a DNS zone
+	Note-: The DNS zone name must be same as the existing domain name.
+	After creating the DNS zone, azure will provide 4 name servers
+Step 3: You have to replace all these 4 name servers to their existing name servers as in freenom.com
+
+For connecting one domain to another domain, you can create a record set where the record type is called as CNAME.
+
+There are different type of record types used in DNS
+1.A record
+2.AA record
+3.AAAA record
+4.txt record
+5.MX record (Mail exchange)
+6.CNAME (Canonical Name)
+7.ptr (Pointer record)
